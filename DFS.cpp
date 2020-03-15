@@ -1,7 +1,7 @@
 //implement by adjcent list
 //functional dfs
 void dfs(int now, int fa, int layer){
-	for (auto j : v[now])
+	for (auto j : adj[now])
 		if(j != fa ) dfs(j, now, layer + 1);
 }
 //stack dfs
