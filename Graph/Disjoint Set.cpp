@@ -14,7 +14,6 @@ int find(int x)
 	while(parent[xParent] >= 0){
 		xParent = parent[xParent];
 	}
-	parent[x] = xParent;
 	return xParent;
 }
 void unions(int x ,int y)
