@@ -27,20 +27,18 @@ void ST_Creation(vi &ST, const vi &A)
 }
 int query(vi &ST, const vi &A, int vertex, int L, int R, int qL, int qR)
 {
-	int ans = 1e18, temp, mid = (L + R) / 2;
+	int temp, mid = (L + R) / 2;
 	if(qL <= L && R <= qR) return ST[vertex];
-	if(qL <= mid)
+	if(qR <= mid)
 	{
-		temp = query(ST, A, vertex * 2, L, mid, qL, qR);
-		ans = A[ans] <= A[temp] ? ans : temp;
+		return query(ST, A, vertex * 2, L, mid, qL, qR);
 	}
-	if(qR > mid)
+	if(qL > mid)
 	{
-		temp = query(ST, A, vertex * 2 + 1, mid + 1, R, qL, qR);
-		ans = A[ans] <= A[temp] ? ans : temp;
+		return query(ST, A, vertex * 2 + 1, mid + 1, R, qL, qR);
 	}
-
-	return ans;
+	return A[query(ST, A, vertex * 2, L, mid, qL, qR)] <= A[query(ST, A, vertex * 2 + 1, mid + 1, R, qL, qR)]
+			? query(ST, A, vertex * 2, L, mid, qL, qR) : query(ST, A, vertex * 2 + 1, mid + 1, R, qL, qR);
 
 }
 void update(vi &ST, vi &A, int x, int L, int R, int p,int v)
