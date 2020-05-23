@@ -30,11 +30,11 @@ int query(vi &ST, const vi &A, int vertex, int L, int R, int qL, int qR)
 	int temp, mid = (L + R) / 2;
 	if(qL <= L && R <= qR) return ST[vertex];
 	if(qR <= mid)
-	{
+	{	//all we want at the left child
 		return query(ST, A, vertex * 2, L, mid, qL, qR);
 	}
 	if(qL > mid)
-	{
+	{	// all we want at the right child
 		return query(ST, A, vertex * 2 + 1, mid + 1, R, qL, qR);
 	}
 	return A[query(ST, A, vertex * 2, L, mid, qL, qR)] <= A[query(ST, A, vertex * 2 + 1, mid + 1, R, qL, qR)]
