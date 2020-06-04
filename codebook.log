@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 2.9.7400 64-bit) (preloaded format=xelatex 2020.5.17)  25 MAY 2020 14:20
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 2.9.7400 64-bit) (preloaded format=xelatex 2020.5.17)  5 JUN 2020 00:47
 entering extended mode
 **./codebook.tex
 (codebook.tex
@@ -587,10 +587,7 @@ Package xeCJK Warning: Unknown CJK family `\CJKttdefault' is being ignored.
 (xeCJK)                
 (xeCJK)                Try to use `\setCJKmonofont[...]{...}' to define it.
 
-("Data Structure/Disjoint Set.cpp") ("Tree/Segment Tree.cpp"
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
+(Basic/Syntax.cpp) ("Data Structure/Disjoint Set.cpp") ("Tree/Segment Tree.cpp"
 
 Package Fancyhdr Warning: \footskip is too small (0.0pt): 
 Make it at least 3.60004pt.
@@ -600,31 +597,30 @@ This may cause the page layout to be inconsistent, however.
 [1
 
 ]) ("Divide and Conquer/MaximumSubArray.cpp") ("Dynamic Programming/LCS.cpp") (
-"Dynamic Programming/LIS.cpp") ("Search/Binary Search.cpp")
-("Sequence/RSQ(Prefix Sum).cpp" [2]) ("Sequence/RSQ(2DPrefix Sum).cpp")
-("Sequence/RSQ(Fenwick Tree).cpp") ("Sorting/Counting Sort.cpp" [3])
+"Dynamic Programming/LIS.cpp") [2] ("Search/Binary Search.cpp")
+("Sequence/RSQ(Prefix Sum).cpp") ("Sequence/RSQ(2DPrefix Sum).cpp")
+("Sequence/RSQ(Fenwick Tree).cpp" [3]) ("Sorting/Counting Sort.cpp")
 ("Sorting/Topology Sort.cpp"
 
 LaTeX Font Warning: Font shape `TU/NotoSansCJKTC(0)/m/it' undefined
 (Font)              using `TU/NotoSansCJKTC(0)/m/n' instead on input line 9.
 
-)
-Underfull \vbox (badness 10000) has occurred while \output is active []
+) (Graph/DFS.cpp) (Graph/BFS.cpp [4]) (Graph/Dijkstra.cpp)
+(Graph/BellmanFord.cpp) (Graph/FloydWarshall.cpp) ("Graph/Kruskal Algorithm.cpp
+") [5] ("Graph/Convex Hull.cpp")) [6
 
-
-(Graph/Dijkstra.cpp) (Graph/BellmanFord.cpp) (Graph/FloydWarshall.cpp [4])
-("Graph/Kruskal Algorithm.cpp") ("Graph/Convex Hull.cpp")) [5] (codebook.aux)
+] (codebook.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 9230 strings out of 414218
- 204367 string characters out of 2898077
- 1088246 words of memory out of 3000000
- 26571 multiletter control sequences out of 15000+200000
+ 9291 strings out of 414218
+ 204957 string characters out of 2898077
+ 1211246 words of memory out of 3000000
+ 26622 multiletter control sequences out of 15000+200000
  533893 words of font info for 63 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
- 44i,12n,70p,250b,1627s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 44i,12n,70p,250b,1625s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on codebook.pdf (5 pages).
+Output written on codebook.pdf (6 pages).
