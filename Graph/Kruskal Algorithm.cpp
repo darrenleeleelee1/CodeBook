@@ -53,3 +53,20 @@ double kruskal(int n, int m)
 	}
 	return ans;
 }
+// find max segment in MST graph
+int maxcost[maxn][maxn];
+vector<int> visited;
+void dfs(int pre, int now, int w){
+	for(auto x : visited){
+		maxcost[x][now] = maxcost[now][x] = max(w, maxcost[pre][x]);
+	}
+	visited.push_back(now);
+	for(auto i : G[now]){
+		if(pre != i.to) dfs(i.from, i.to, i.cost);
+	}
+}
+void findMaxPtah(int sp, int ep){
+	memset(maxcost, 0,  sizeof(maxcost));
+	visited.clear();
+	dfs(-1, sp, 0);
+}
