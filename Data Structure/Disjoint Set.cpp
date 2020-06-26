@@ -1,33 +1,32 @@
-#include <bits/stdc++.h>
-using namespace std;
 const int n = 6; // number of nodes 
-int parent[n+10];
+int p[n+10];
 void init()
 {
 	for(int i = 0; i < n; i ++){
-		parent[i] = -1;
+		p[i] = -1;
 	}
 }
-int find(int x)
-{
-	int xParent = x;
-	while(parent[xParent] >= 0){
-		xParent = parent[xParent];
-	}
-	return xParent;
+int find(int x){
+	int root, trail, lead;
+	for (root = x ; p[root] >= 0; root = p[root]);
+	for (trail = x ; trail! = root; trail=lead) {
+        lead = p[trail];
+        p[trail]= root;
+ 	}
+ 	return root;
 }
-void unions(int x ,int y)
+void uni(int x ,int y)
 {
-	int xParent = find(x);
-	int yParent = find(y);
-	if(xParent != yParent){
-		if(parent[xParent] > parent[yParent]){
-			parent[xParent] += parent[yParent];
-			parent[yParent] = xParent;
+	int xRoot = find(x);
+	int yRoot = find(y);
+	if(xRoot != yRoot){
+		if(p[xRoot] > p[yRoot]){
+			p[xRoot] += p[yRoot];
+			p[yRoot] = xRoot;
 		}
 		else{
-			parent[yParent] += parent[xParent];
-			parent[xParent] = yParent;	
+			p[yRoot] += p[xRoot];
+			p[xRoot] = yRoot;	
 		}
 	}
 }
