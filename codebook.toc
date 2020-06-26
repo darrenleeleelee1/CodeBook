@@ -27,8 +27,9 @@
 \contentsline {subsection}{\numberline {8.6}FloydWarshall}{6}%
 \contentsline {subsection}{\numberline {8.7}Kruskal}{6}%
 \contentsline {subsection}{\numberline {8.8}Bipartite Matching}{6}%
-\contentsline {subsection}{\numberline {8.9}Convex Hull}{7}%
-\contentsline {section}{\numberline {9}Number}{7}%
-\contentsline {subsection}{\numberline {9.1}Sieve}{7}%
-\contentsline {subsection}{\numberline {9.2}Power}{7}%
+\contentsline {subsection}{\numberline {8.9}CLE Directed MST}{7}%
+\contentsline {subsection}{\numberline {8.10}Convex Hull}{7}%
+\contentsline {section}{\numberline {9}Number}{8}%
+\contentsline {subsection}{\numberline {9.1}Sieve}{8}%
+\contentsline {subsection}{\numberline {9.2}Power}{8}%
 \contentsline {subsection}{\numberline {9.3}Euler}{8}%
