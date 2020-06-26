@@ -8,8 +8,8 @@ void init()
 }
 int find(int x){
 	int root, trail, lead;
-	for (root = x ; p[root] >= 0; root = p[root]);
-	for (trail = x ; trail! = root; trail=lead) {
+	for (root = x; p[root] >= 0; root = p[root]);
+	for (trail = x; trail != root; trail = lead) {
         lead = p[trail];
         p[trail]= root;
  	}
