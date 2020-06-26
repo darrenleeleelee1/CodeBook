@@ -37,7 +37,7 @@ bool uni(int x ,int y)
 double kruskal(int n, int m)
 {
 	// n is the numbers of node, m is the numbers of edge.
-	for(int i = 0; i < n; i++){
+	for(int i = 0; i <= n; i++){
 		G[i].clear();
 		p[i] = -1;
 	}
