@@ -1,56 +1,45 @@
-#include <bits/stdc++.h>
-using namespace std;
+const int maxn = 1000+5;
 struct Edge
 {
-	int from, to, weight;
-	bool operator< (const Edge other) const{
-		return weight < other.weight;
+	int from, to;
+	double cost;
+	bool operator<(const Edge other){
+		return cost < other.cost;
 	}
-};
-int n, m; // n is number of nodes, m is number of edges
-Edge edge[25000+10];
-int parent[1000+10];
-void init()
-{
-	for(int i = 0; i < n; i ++){
-		parent[i] = -1;
+}E[maxn*maxn];
+int p[maxn];
+vector<Edge> G[maxn];
+int find(int x){
+	int xRoot = x;
+	while(p[xRoot] >= 0){
+		xRoot = p[xRoot];
 	}
+	return xRoot;
 }
-int find(int x)
-{
-	int xParent = x;
-	while(parent[xParent] >= 0){
-		xParent = parent[xParent];
-	}
-	return xParent;
-}
-bool connect(int x ,int y)
-{
-	int xParent = find(x);
-	int yParent = find(y);
-	if(xParent != yParent){
-		parent[xParent] = yParent;
+bool uni(int x, int y){
+	int xRoot = find(x), yRoot = find(y);
+	if(xRoot == yRoot) return false;
+	else{
+		p[yRoot] = xRoot;
 		return true;
 	}
-	else return false;
 }
-int main(int argc, char const *argv[])
+double kruskal(int n, int m)
 {
-	while(cin >> n >> m)
-	{
-		if(n == 0 && m == 0) break;
-		for(int i = 0; i < m; i++){
-			cin >> edge[i].from >> edge[i].to >> edge[i].weight;
-		}
-		init();
-		sort(edge, edge + m); // Kruskal need to sort the edge by thier weight
-		int minCost = 0; // minimum spanning tree cost
-		for(int i = 0; i < m; i++){
-			if(connect(edge[i].from, edge[i].to)){ 
-				minCost += edge[i].weight;
-			}
-		}
-		printf("%d\n", minCost);
+	// n is the numbers of node, m is the numbers of edge.
+	for(int i = 0; i < n; i++){
+		G[i].clear();
+		p[i] = -1;
 	}
-	return 0;
+	sort(E, E + m);
+	double ans = 0;
+	for(int i = 0; i < m; i++){
+		if(uni(E[i].from, E[i].to)){
+			int from = E[i].from, to = E[i].to;
+			ans += E[i].cost;
+			G[from].push_back(Edge{from, to, E[i].cost});
+			G[to].push_back(Edge{to, from, E[i].cost});
+		}
+	}
+	return ans;
 }

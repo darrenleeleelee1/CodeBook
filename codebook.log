@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 2.9.7400 64-bit) (preloaded format=xelatex 2020.5.17)  5 JUN 2020 00:47
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 2.9.7400 64-bit) (preloaded format=xelatex 2020.5.17)  26 JUN 2020 11:26
 entering extended mode
 **./codebook.tex
 (codebook.tex
@@ -587,7 +587,8 @@ Package xeCJK Warning: Unknown CJK family `\CJKttdefault' is being ignored.
 (xeCJK)                
 (xeCJK)                Try to use `\setCJKmonofont[...]{...}' to define it.
 
-(Basic/Syntax.cpp) ("Data Structure/Disjoint Set.cpp") ("Tree/Segment Tree.cpp"
+(Basic/Syntax.cpp) (Basic/BigInteger.java) ("Data Structure/Disjoint Set.cpp")
+("Tree/Segment Tree.cpp"
 
 Package Fancyhdr Warning: \footskip is too small (0.0pt): 
 Make it at least 3.60004pt.
@@ -596,8 +597,8 @@ This may cause the page layout to be inconsistent, however.
 
 [1
 
-]) ("Divide and Conquer/MaximumSubArray.cpp") ("Dynamic Programming/LCS.cpp") (
-"Dynamic Programming/LIS.cpp") [2] ("Search/Binary Search.cpp")
+]) ("Divide and Conquer/MaximumSubArray.cpp") ("Dynamic Programming/LCS.cpp") [
+2] ("Dynamic Programming/LIS.cpp") ("Search/Binary Search.cpp")
 ("Sequence/RSQ(Prefix Sum).cpp") ("Sequence/RSQ(2DPrefix Sum).cpp")
 ("Sequence/RSQ(Fenwick Tree).cpp" [3]) ("Sorting/Counting Sort.cpp")
 ("Sorting/Topology Sort.cpp"
@@ -605,20 +606,18 @@ This may cause the page layout to be inconsistent, however.
 LaTeX Font Warning: Font shape `TU/NotoSansCJKTC(0)/m/it' undefined
 (Font)              using `TU/NotoSansCJKTC(0)/m/n' instead on input line 9.
 
-) (Graph/DFS.cpp) (Graph/BFS.cpp [4]) (Graph/Dijkstra.cpp)
+) (Graph/DFS.cpp [4]) (Graph/BFS.cpp) (Graph/Dijkstra.cpp)
 (Graph/BellmanFord.cpp) (Graph/FloydWarshall.cpp) ("Graph/Kruskal Algorithm.cpp
-") [5] ("Graph/Convex Hull.cpp")) [6
-
-] (codebook.aux)
+" [5]) ("Graph/Convex Hull.cpp")) [6] (codebook.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 9291 strings out of 414218
- 204957 string characters out of 2898077
- 1211246 words of memory out of 3000000
- 26622 multiletter control sequences out of 15000+200000
+ 9350 strings out of 414218
+ 205595 string characters out of 2898077
+ 1235246 words of memory out of 3000000
+ 26677 multiletter control sequences out of 15000+200000
  533893 words of font info for 63 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
  44i,12n,70p,250b,1625s stack positions out of 5000i,500n,10000p,200000b,50000s
