@@ -43,15 +43,18 @@ double kruskal(int n, int m)
 	}
 	sort(E, E + m);
 	double ans = 0;
+	int edge_cnt = 0;
 	for(int i = 0; i < m; i++){
 		if(uni(E[i].from, E[i].to)){
 			int from = E[i].from, to = E[i].to;
 			ans += E[i].cost;
 			G[from].push_back(Edge{from, to, E[i].cost});
 			G[to].push_back(Edge{to, from, E[i].cost});
+			if(++edge_cnt == n-1) break;
 		}
 	}
-	return ans;
+	if(edge_cnt == n-1) return ans;
+	else return -1;// means can't found spanning tree
 }
 // find max segment in MST graph
 int maxcost[maxn][maxn];
