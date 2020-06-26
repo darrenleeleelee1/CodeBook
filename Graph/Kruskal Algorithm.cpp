@@ -18,13 +18,21 @@ int find(int x){
  	}
  	return root;
 }
-bool uni(int x, int y){
+bool uni(int x ,int y)
+{
 	int xRoot = find(x), yRoot = find(y);
-	if(xRoot == yRoot) return false;
-	else{
-		p[yRoot] = xRoot;
+	if(xRoot != yRoot){
+		if(p[xRoot] > p[yRoot]){
+			p[xRoot] += p[yRoot];
+			p[yRoot] = xRoot;
+		}
+		else{
+			p[yRoot] += p[xRoot];
+			p[xRoot] = yRoot;	
+		}
 		return true;
 	}
+	else return false;
 }
 double kruskal(int n, int m)
 {
