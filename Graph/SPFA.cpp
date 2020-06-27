@@ -1,12 +1,13 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-#define INF 0x3f3f3f3f;
+#define INF 0x3f3f3f3f
 const int maxn = 10000+5;
 
 int n, m;
 int dist[maxn], vis[maxn], out[maxn];
-vector<pair<int, int>> adj[maxn];
+//dist = distance, vis = visit, out
+vector< pair< int, int > > adj[maxn];
 
 void init()
 {
@@ -26,17 +27,17 @@ bool spfa(int sp, int n)
 	while(!q.empty())
 	{
 		int u = q.front(); q.pop();
-		vis[u] = 0;
+		vis[u] = 0;	// pop point
 		out[u]++;
 		if(out[u] > n) return false; // negative cycle occurs
 
 		for(int j = 0; j < adj[u].size(); j++){
-			int v = adj[u][j].first;
+			int v = adj[u][j].first;	// first is point, second is weight
 			if(dist[v] > dist[u] + adj[u][j].second){
 				dist[v] = dist[u] + adj[u][j].second;
 				if(vis[v]) continue;
 
-				vis[v] = 1;
+				vis[v] = 1;	//push point
 				q.push(v);
 			}
 		}
@@ -53,12 +54,13 @@ int main(int argc, char const *argv[])
 	int a, b, w;
 	for(int i = 0; i < m; i++){
 		scanf("%d%d%d", &a, &b, &w);
-		E[a].push_back(make_pair(b, w));
-		E[b].push_back(make_pair(a, w));
+		adj[a].push_back(make_pair(b, w));
+		//adj[b].push_back(make_pair(a, w));
 	}
 	int sp = 0; // start point
 	dist[sp] = 0; vis[sp] = 1;
-	if(spfa(sp, n)) printf("%d\n", dist[n-1]);
+	if(spfa(sp, n))
+		for (int i = 0; i < n; i++) printf("dist %d: %d\n",i, dist[i]);
 	else printf("can't reach.\n");
 	return 0;
 }
