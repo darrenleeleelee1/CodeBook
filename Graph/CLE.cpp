@@ -20,8 +20,8 @@ int CLE(int root, int n, int m)
 			int from = e[i].from, to = e[i].to;
 			if(from != to && e[i].cost < in[to]){
 				in[to] = e[i].cost;
+				pre[to] = from;
 			}	
-			pre[to] = from;
 		}
 		//Check in edge
 		for(int i = 0; i < n; i++){
