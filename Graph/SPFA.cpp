@@ -53,8 +53,7 @@ int main(int argc, char const *argv[])
 	int a, b, w;
 	for(int i = 0; i < m; i++){
 		scanf("%d%d%d", &a, &b, &w);
-		E[a].push_back(make_pair(b, w));
-		E[b].push_back(make_pair(a, w));
+		adj[a].push_back(make_pair(b, w));
 	}
 	int sp = 0; // start point
 	dist[sp] = 0; vis[sp] = 1;
