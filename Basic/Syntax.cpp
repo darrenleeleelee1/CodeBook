@@ -12,7 +12,7 @@ int main(int argc, char const *argv[])
 	itoa(x, temp, base);
 	printf("%s\n", temp);
 	// String to Double
-	char strd[30] = {'0', '.', '6', '0', '2', '2', '2', '9', '\0'};
+	char strd[30] = {'0', '.', '6', '0', '2', '9', '\0'};
 	printf("%lf\n", stod(strd));
 	// Double to String
 	double y = 3.1415926;

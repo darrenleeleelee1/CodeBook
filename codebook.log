@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 2.9.7400 64-bit) (preloaded format=xelatex 2020.5.17)  28 JUN 2020 17:12
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 2.9.7400 64-bit) (preloaded format=xelatex 2020.5.17)  2 JUL 2020 16:38
 entering extended mode
 **./codebook.tex
 (codebook.tex
@@ -587,8 +587,12 @@ Package xeCJK Warning: Unknown CJK family `\CJKttdefault' is being ignored.
 (xeCJK)                
 (xeCJK)                Try to use `\setCJKmonofont[...]{...}' to define it.
 
-(Basic/Syntax.cpp) (Basic/BigInteger.java) ("Data Structure/Disjoint Set.cpp")
-("Data Structure/Segment Tree.cpp"
+(Basic/Syntax.cpp
+
+LaTeX Font Warning: Font shape `TU/NotoSansCJKTC(0)/m/it' undefined
+(Font)              using `TU/NotoSansCJKTC(0)/m/n' instead on input line 1.
+
+) (Basic/Linux.txt) (Basic/BigInteger.java) ("Data Structure/Disjoint Set.cpp")
 
 Package Fancyhdr Warning: \footskip is too small (0.0pt): 
 Make it at least 3.60004pt.
@@ -597,33 +601,29 @@ This may cause the page layout to be inconsistent, however.
 
 [1
 
-]) ("Divide and Conquer/MaximumSubArray.cpp") ("Dynamic Programming/LCS.cpp") (
-"Dynamic Programming/LIS.cpp" [2]) ("Search/Binary Search.cpp")
-("Sequence/RSQ(Prefix Sum).cpp") ("Sequence/RSQ(2DPrefix Sum).cpp")
-("Sequence/RSQ(Fenwick Tree).cpp" [3]) ("Sorting/Counting Sort.cpp")
-("Sorting/Topology Sort.cpp"
-
-LaTeX Font Warning: Font shape `TU/NotoSansCJKTC(0)/m/it' undefined
-(Font)              using `TU/NotoSansCJKTC(0)/m/n' instead on input line 9.
-
-) ("Sorting/Topology Sort with DFS.cpp" [4]) (Graph/DFS.cpp)
-("Graph/DFS with Discover and Finish time.cpp") (Graph/BFS.cpp)
-(Graph/Dijkstra.cpp [5]) (Graph/SPFA.cpp) (Graph/BellmanFord.cpp) [6]
-(Graph/FloydWarshall.cpp) ("Graph/Kruskal Algorithm.cpp")
-("Graph/Bipartite Matching.cpp" [7]) (Graph/CLE.cpp) ("Graph/Convex Hull.cpp"
-[8]) (Number/Sieve.cpp) (Number/Power.cpp) (Number/Euler.cpp)) [9]
-(codebook.aux)
+] ("Data Structure/Segment Tree.cpp") ("Data Structure/Tree Policy.cpp")
+("Divide and Conquer/MaximumSubArray.cpp" [2]) ("Dynamic Programming/LCS.cpp")
+("Dynamic Programming/LIS.cpp") ("Search/Binary Search.cpp")
+("Sequence/RSQ(Prefix Sum).cpp") ("Sequence/RSQ(2DPrefix Sum).cpp" [3])
+("Sequence/RSQ(Fenwick Tree).cpp") ("Sorting/Counting Sort.cpp")
+("Sorting/Topology Sort.cpp" [4]) ("Sorting/Topology Sort with DFS.cpp")
+(Graph/DFS.cpp) ("Graph/DFS with Discover and Finish time.cpp" [5])
+(Graph/BFS.cpp) (Graph/Dijkstra.cpp) (Graph/SPFA.cpp [6])
+(Graph/BellmanFord.cpp) (Graph/FloydWarshall.cpp) ("Graph/Kruskal Algorithm.cpp
+") [7] ("Graph/Bipartite Matching.cpp") (Graph/CLE.cpp [8])
+("Graph/Convex Hull.cpp") (Number/Sieve.cpp) (Number/Power.cpp)
+(Number/Euler.cpp)) [9] (codebook.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 9483 strings out of 414218
- 207277 string characters out of 2898077
- 1231246 words of memory out of 3000000
- 26785 multiletter control sequences out of 15000+200000
+ 9574 strings out of 414218
+ 208362 string characters out of 2898077
+ 1266246 words of memory out of 3000000
+ 26870 multiletter control sequences out of 15000+200000
  533901 words of font info for 64 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
- 44i,12n,70p,250b,1625s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 44i,12n,70p,250b,1627s stack positions out of 5000i,500n,10000p,200000b,50000s
 
 Output written on codebook.pdf (9 pages).
