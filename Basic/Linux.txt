@@ -4,3 +4,5 @@ touch PA.in
 ./PA.exe > PA.in < PA.out
 3.打開.out或.in檔
 cat PA.in
+4.比較答案
+diff PA.out ans.txt

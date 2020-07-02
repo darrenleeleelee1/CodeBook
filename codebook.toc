@@ -11,29 +11,31 @@
 \contentsline {section}{\numberline {4}Dynamic Programming}{3}%
 \contentsline {subsection}{\numberline {4.1}LCS}{3}%
 \contentsline {subsection}{\numberline {4.2}LIS}{3}%
-\contentsline {section}{\numberline {5}Search}{3}%
-\contentsline {subsection}{\numberline {5.1}Binary Search}{3}%
-\contentsline {section}{\numberline {6}Sequence}{3}%
-\contentsline {subsection}{\numberline {6.1}RSQ(Prefix Sum)}{3}%
-\contentsline {subsection}{\numberline {6.2}RSQ(2DPrefix Sum)}{3}%
-\contentsline {subsection}{\numberline {6.3}RSQ(Fenwick Tree)}{4}%
-\contentsline {section}{\numberline {7}Sorting}{4}%
-\contentsline {subsection}{\numberline {7.1}Counting Sort}{4}%
-\contentsline {subsection}{\numberline {7.2}Topology Sort}{4}%
+\contentsline {subsection}{\numberline {4.3}Knapsack}{3}%
+\contentsline {subsection}{\numberline {4.4}Chain Matrix Mul}{3}%
+\contentsline {section}{\numberline {5}Search}{4}%
+\contentsline {subsection}{\numberline {5.1}Binary Search}{4}%
+\contentsline {section}{\numberline {6}Sequence}{4}%
+\contentsline {subsection}{\numberline {6.1}RSQ(Prefix Sum)}{4}%
+\contentsline {subsection}{\numberline {6.2}RSQ(2DPrefix Sum)}{4}%
+\contentsline {subsection}{\numberline {6.3}RSQ(Fenwick Tree)}{5}%
+\contentsline {section}{\numberline {7}Sorting}{5}%
+\contentsline {subsection}{\numberline {7.1}Counting Sort}{5}%
+\contentsline {subsection}{\numberline {7.2}Topology Sort}{5}%
 \contentsline {subsection}{\numberline {7.3}Topology Sort with DFS(check有無環)}{5}%
-\contentsline {section}{\numberline {8}Graph}{5}%
-\contentsline {subsection}{\numberline {8.1}DFS I}{5}%
-\contentsline {subsection}{\numberline {8.2}DFS II}{5}%
+\contentsline {section}{\numberline {8}Graph}{6}%
+\contentsline {subsection}{\numberline {8.1}DFS I}{6}%
+\contentsline {subsection}{\numberline {8.2}DFS II}{6}%
 \contentsline {subsection}{\numberline {8.3}BFS}{6}%
-\contentsline {subsection}{\numberline {8.4}Dijkstra}{6}%
-\contentsline {subsection}{\numberline {8.5}SPFA}{6}%
+\contentsline {subsection}{\numberline {8.4}Dijkstra}{7}%
+\contentsline {subsection}{\numberline {8.5}SPFA}{7}%
 \contentsline {subsection}{\numberline {8.6}BellmanFord}{7}%
-\contentsline {subsection}{\numberline {8.7}FloydWarshall}{7}%
-\contentsline {subsection}{\numberline {8.8}Kruskal}{7}%
+\contentsline {subsection}{\numberline {8.7}FloydWarshall}{8}%
+\contentsline {subsection}{\numberline {8.8}Kruskal}{8}%
 \contentsline {subsection}{\numberline {8.9}Bipartite Matching}{8}%
-\contentsline {subsection}{\numberline {8.10}CLE Directed MST}{8}%
+\contentsline {subsection}{\numberline {8.10}CLE Directed MST}{9}%
 \contentsline {subsection}{\numberline {8.11}Convex Hull}{9}%
-\contentsline {section}{\numberline {9}Number}{9}%
-\contentsline {subsection}{\numberline {9.1}Sieve}{9}%
-\contentsline {subsection}{\numberline {9.2}Power}{9}%
-\contentsline {subsection}{\numberline {9.3}Euler}{9}%
+\contentsline {section}{\numberline {9}Number}{10}%
+\contentsline {subsection}{\numberline {9.1}Sieve}{10}%
+\contentsline {subsection}{\numberline {9.2}Power}{10}%
+\contentsline {subsection}{\numberline {9.3}Euler}{10}%
