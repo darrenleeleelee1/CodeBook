@@ -2,12 +2,6 @@ const int maxn = 10;
 struct Node{
 	int d, f, color;
 	// d: discover time, f: finish time, color: 0 == white, 1 == gray, 2 == black  
-	/*
-	Topology sort by finsih time, Larger out first
-	bool operator< (const Node other) const{
-		return color > other.color;
-	}
-	*/
 };
 vector<int> adj[maxn];
 Node node[maxn];
@@ -44,6 +38,5 @@ int main(int argc, char const *argv[])
 	for(int i = 0; i < n; i++){
 		printf("%d: d: %d f: %d color: %d\n", i, node[i].d, node[i].f, node[i].color);
 	}
-	//sort(node, node + n); print out is the order of topology order
 	return 0;
 }
