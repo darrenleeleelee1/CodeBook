@@ -1,5 +1,5 @@
-#include <bits/stdc++.h>
-using namespace std;
+// 加速cin, cout
+#define IOS cin.tie(nullptr); cout.tie(nullptr); ios_base::sync_with_stdio(false);
 int main(int argc, char const *argv[])
 {
 	// String to Integer
@@ -25,5 +25,10 @@ int main(int argc, char const *argv[])
 	// String Length
 	char strl[30] = {'H', 'E', 'L', 'L', 'O', '\0'};
 	printf("%d\n", strlen(strl));
+	// String Reverse
+	char a[] = {'a', 'b', 'c', 'd', 'e', 'f', '\0'};
+	strrev(a); reverse(a, a + 6);
+	string s = "abcdefg";
+	reverse(s.begin(), s.end());
 	return 0;
 }
