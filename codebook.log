@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 2.9.7400 64-bit) (preloaded format=xelatex 2020.5.17)  27 JUN 2020 01:02
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 2.9.7400 64-bit) (preloaded format=xelatex 2020.5.17)  28 JUN 2020 17:12
 entering extended mode
 **./codebook.tex
 (codebook.tex
@@ -606,22 +606,24 @@ This may cause the page layout to be inconsistent, however.
 LaTeX Font Warning: Font shape `TU/NotoSansCJKTC(0)/m/it' undefined
 (Font)              using `TU/NotoSansCJKTC(0)/m/n' instead on input line 9.
 
-) (Graph/DFS.cpp [4]) (Graph/BFS.cpp) (Graph/Dijkstra.cpp) (Graph/SPFA.cpp)
-(Graph/BellmanFord.cpp [5]) (Graph/FloydWarshall.cpp)
-("Graph/Kruskal Algorithm.cpp") ("Graph/Bipartite Matching.cpp" [6])
-(Graph/CLE.cpp) ("Graph/Convex Hull.cpp" [7]) (Number/Sieve.cpp)
-(Number/Power.cpp) (Number/Euler.cpp)) [8] (codebook.aux)
+) ("Sorting/Topology Sort with DFS.cpp" [4]) (Graph/DFS.cpp)
+("Graph/DFS with Discover and Finish time.cpp") (Graph/BFS.cpp)
+(Graph/Dijkstra.cpp [5]) (Graph/SPFA.cpp) (Graph/BellmanFord.cpp) [6]
+(Graph/FloydWarshall.cpp) ("Graph/Kruskal Algorithm.cpp")
+("Graph/Bipartite Matching.cpp" [7]) (Graph/CLE.cpp) ("Graph/Convex Hull.cpp"
+[8]) (Number/Sieve.cpp) (Number/Power.cpp) (Number/Euler.cpp)) [9]
+(codebook.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 9453 strings out of 414218
- 206663 string characters out of 2898077
- 1208246 words of memory out of 3000000
- 26762 multiletter control sequences out of 15000+200000
- 533893 words of font info for 63 fonts, out of 3000000 for 9000
+ 9483 strings out of 414218
+ 207277 string characters out of 2898077
+ 1231246 words of memory out of 3000000
+ 26785 multiletter control sequences out of 15000+200000
+ 533901 words of font info for 64 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
- 44i,12n,70p,250b,1627s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 44i,12n,70p,250b,1625s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on codebook.pdf (8 pages).
+Output written on codebook.pdf (9 pages).

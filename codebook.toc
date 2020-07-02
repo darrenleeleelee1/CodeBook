@@ -18,18 +18,20 @@
 \contentsline {section}{\numberline {7}Sorting}{4}%
 \contentsline {subsection}{\numberline {7.1}Counting Sort}{4}%
 \contentsline {subsection}{\numberline {7.2}Topology Sort}{4}%
-\contentsline {section}{\numberline {8}Graph}{4}%
-\contentsline {subsection}{\numberline {8.1}DFS}{4}%
-\contentsline {subsection}{\numberline {8.2}BFS}{5}%
-\contentsline {subsection}{\numberline {8.3}Dijkstra}{5}%
-\contentsline {subsection}{\numberline {8.4}SPFA}{5}%
-\contentsline {subsection}{\numberline {8.5}BellmanFord}{5}%
-\contentsline {subsection}{\numberline {8.6}FloydWarshall}{6}%
-\contentsline {subsection}{\numberline {8.7}Kruskal}{6}%
-\contentsline {subsection}{\numberline {8.8}Bipartite Matching}{6}%
-\contentsline {subsection}{\numberline {8.9}CLE Directed MST}{7}%
-\contentsline {subsection}{\numberline {8.10}Convex Hull}{7}%
-\contentsline {section}{\numberline {9}Number}{8}%
-\contentsline {subsection}{\numberline {9.1}Sieve}{8}%
-\contentsline {subsection}{\numberline {9.2}Power}{8}%
-\contentsline {subsection}{\numberline {9.3}Euler}{8}%
+\contentsline {subsection}{\numberline {7.3}Topology Sort with DFS(check有無環)}{4}%
+\contentsline {section}{\numberline {8}Graph}{5}%
+\contentsline {subsection}{\numberline {8.1}DFS I}{5}%
+\contentsline {subsection}{\numberline {8.2}DFS II}{5}%
+\contentsline {subsection}{\numberline {8.3}BFS}{5}%
+\contentsline {subsection}{\numberline {8.4}Dijkstra}{5}%
+\contentsline {subsection}{\numberline {8.5}SPFA}{6}%
+\contentsline {subsection}{\numberline {8.6}BellmanFord}{6}%
+\contentsline {subsection}{\numberline {8.7}FloydWarshall}{7}%
+\contentsline {subsection}{\numberline {8.8}Kruskal}{7}%
+\contentsline {subsection}{\numberline {8.9}Bipartite Matching}{7}%
+\contentsline {subsection}{\numberline {8.10}CLE Directed MST}{8}%
+\contentsline {subsection}{\numberline {8.11}Convex Hull}{8}%
+\contentsline {section}{\numberline {9}Number}{9}%
+\contentsline {subsection}{\numberline {9.1}Sieve}{9}%
+\contentsline {subsection}{\numberline {9.2}Power}{9}%
+\contentsline {subsection}{\numberline {9.3}Euler}{9}%

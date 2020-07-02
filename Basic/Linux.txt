@@ -1,0 +1,6 @@
+1.創一個.in檔案
+touch PA.in
+2.執行exe檔案
+./PA.exe > PA.in < PA.out
+3.打開.out或.in檔
+cat PA.in
