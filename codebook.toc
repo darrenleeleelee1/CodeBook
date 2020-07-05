@@ -1,41 +1,62 @@
 \contentsline {section}{\numberline {1}Basic}{1}%
 \contentsline {subsection}{\numberline {1.1}Syntax}{1}%
 \contentsline {subsection}{\numberline {1.2}Linux Command}{1}%
-\contentsline {subsection}{\numberline {1.3}BigInteger}{1}%
-\contentsline {section}{\numberline {2}Data Structure}{1}%
-\contentsline {subsection}{\numberline {2.1}Disjoint Set}{1}%
+\contentsline {subsection}{\numberline {1.3}Substring}{1}%
+\contentsline {subsection}{\numberline {1.4}BigInteger}{1}%
+\contentsline {section}{\numberline {2}Data Structure}{2}%
+\contentsline {subsection}{\numberline {2.1}Disjoint Set}{2}%
 \contentsline {subsection}{\numberline {2.2}Segment Tree}{2}%
 \contentsline {subsection}{\numberline {2.3}Tree Policy}{2}%
-\contentsline {section}{\numberline {3}Divide and Conquer}{2}%
-\contentsline {subsection}{\numberline {3.1}MaximumSubArray}{2}%
-\contentsline {section}{\numberline {4}Dynamic Programming}{3}%
-\contentsline {subsection}{\numberline {4.1}LCS}{3}%
-\contentsline {subsection}{\numberline {4.2}LIS}{3}%
-\contentsline {subsection}{\numberline {4.3}Knapsack}{3}%
-\contentsline {subsection}{\numberline {4.4}Chain Matrix Mul}{3}%
-\contentsline {section}{\numberline {5}Search}{4}%
-\contentsline {subsection}{\numberline {5.1}Binary Search}{4}%
-\contentsline {section}{\numberline {6}Sequence}{4}%
-\contentsline {subsection}{\numberline {6.1}RSQ(Prefix Sum)}{4}%
-\contentsline {subsection}{\numberline {6.2}RSQ(2DPrefix Sum)}{4}%
-\contentsline {subsection}{\numberline {6.3}RSQ(Fenwick Tree)}{5}%
-\contentsline {section}{\numberline {7}Sorting}{5}%
-\contentsline {subsection}{\numberline {7.1}Counting Sort}{5}%
-\contentsline {subsection}{\numberline {7.2}Topology Sort}{5}%
-\contentsline {subsection}{\numberline {7.3}Topology Sort with DFS(check有無環)}{5}%
-\contentsline {section}{\numberline {8}Graph}{6}%
-\contentsline {subsection}{\numberline {8.1}DFS I}{6}%
-\contentsline {subsection}{\numberline {8.2}DFS II}{6}%
-\contentsline {subsection}{\numberline {8.3}BFS}{6}%
-\contentsline {subsection}{\numberline {8.4}Dijkstra}{7}%
-\contentsline {subsection}{\numberline {8.5}SPFA}{7}%
-\contentsline {subsection}{\numberline {8.6}BellmanFord}{7}%
-\contentsline {subsection}{\numberline {8.7}FloydWarshall}{8}%
-\contentsline {subsection}{\numberline {8.8}Kruskal}{8}%
-\contentsline {subsection}{\numberline {8.9}Bipartite Matching}{8}%
-\contentsline {subsection}{\numberline {8.10}CLE Directed MST}{9}%
-\contentsline {subsection}{\numberline {8.11}Convex Hull}{9}%
-\contentsline {section}{\numberline {9}Number}{10}%
-\contentsline {subsection}{\numberline {9.1}Sieve}{10}%
-\contentsline {subsection}{\numberline {9.2}Power}{10}%
-\contentsline {subsection}{\numberline {9.3}Euler}{10}%
+\contentsline {subsection}{\numberline {2.4}KMP}{3}%
+\contentsline {subsection}{\numberline {2.5}LCA}{3}%
+\contentsline {section}{\numberline {3}Divide and Conquer}{3}%
+\contentsline {subsection}{\numberline {3.1}MaximumSubArray}{3}%
+\contentsline {subsection}{\numberline {3.2}Closet Set Pair}{4}%
+\contentsline {section}{\numberline {4}Dynamic Programming}{4}%
+\contentsline {subsection}{\numberline {4.1}LCS}{4}%
+\contentsline {subsection}{\numberline {4.2}LIS}{4}%
+\contentsline {subsection}{\numberline {4.3}Knapsack}{5}%
+\contentsline {subsection}{\numberline {4.4}ChangeCoin}{5}%
+\contentsline {subsection}{\numberline {4.5}String Edition}{5}%
+\contentsline {subsection}{\numberline {4.6}Chain Matrix Mul}{6}%
+\contentsline {section}{\numberline {5}Search}{6}%
+\contentsline {subsection}{\numberline {5.1}Binary Search}{6}%
+\contentsline {section}{\numberline {6}Sequence}{6}%
+\contentsline {subsection}{\numberline {6.1}RSQ(Prefix Sum)}{6}%
+\contentsline {subsection}{\numberline {6.2}RSQ(2DPrefix Sum)}{7}%
+\contentsline {subsection}{\numberline {6.3}RSQ(Fenwick Tree)}{7}%
+\contentsline {section}{\numberline {7}Sorting}{7}%
+\contentsline {subsection}{\numberline {7.1}Counting Sort}{7}%
+\contentsline {subsection}{\numberline {7.2}Topology Sort}{8}%
+\contentsline {subsection}{\numberline {7.3}Topology Sort with DFS(check有無環)}{8}%
+\contentsline {section}{\numberline {8}Graph}{8}%
+\contentsline {subsection}{\numberline {8.1}DFS I}{8}%
+\contentsline {subsection}{\numberline {8.2}DFS II}{9}%
+\contentsline {subsection}{\numberline {8.3}DFS Tree}{9}%
+\contentsline {subsection}{\numberline {8.4}BFS}{9}%
+\contentsline {subsection}{\numberline {8.5}AOE}{9}%
+\contentsline {subsection}{\numberline {8.6}Dijkstra}{10}%
+\contentsline {subsection}{\numberline {8.7}SPFA}{10}%
+\contentsline {subsection}{\numberline {8.8}BellmanFord}{11}%
+\contentsline {subsection}{\numberline {8.9}FloydWarshall}{11}%
+\contentsline {subsection}{\numberline {8.10}Kruskal}{11}%
+\contentsline {subsection}{\numberline {8.11}Articulation Point}{12}%
+\contentsline {subsection}{\numberline {8.12}Bipartite Matching}{13}%
+\contentsline {subsection}{\numberline {8.13}CLE Directed MST}{13}%
+\contentsline {subsection}{\numberline {8.14}Dinic}{14}%
+\contentsline {subsection}{\numberline {8.15}Convex Hull}{15}%
+\contentsline {section}{\numberline {9}Number}{15}%
+\contentsline {subsection}{\numberline {9.1}Sieve}{15}%
+\contentsline {subsection}{\numberline {9.2}Power}{15}%
+\contentsline {subsection}{\numberline {9.3}Euler}{15}%
+\contentsline {subsection}{\numberline {9.4}Factors}{15}%
+\contentsline {subsection}{\numberline {9.5}Extend Euclidean}{16}%
+\contentsline {subsection}{\numberline {9.6}Matrix}{16}%
+\contentsline {subsection}{\numberline {9.7}Lines Intersection}{16}%
+\contentsline {section}{\numberline {10}other}{16}%
+\contentsline {subsection}{\numberline {10.1}BigNum}{16}%
+\contentsline {subsection}{\numberline {10.2}DP + Dijkstra}{19}%
+\contentsline {subsection}{\numberline {10.3}MST + Enumeration}{19}%
+\contentsline {subsection}{\numberline {10.4}Binary Search Example}{19}%
+\contentsline {subsection}{\numberline {10.5}Binary Search Example}{20}%
+\contentsline {subsection}{\numberline {10.6}BFS Number Transform}{20}%

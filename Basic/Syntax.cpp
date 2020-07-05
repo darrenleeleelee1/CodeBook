@@ -30,5 +30,11 @@ int main(int argc, char const *argv[])
 	strrev(a); reverse(a, a + 6);
 	string s = "abcdefg";
 	reverse(s.begin(), s.end());
+	/* Complexity
+	O(N) 大概 N 可以到 1億
+	O(N log N) 大概 N 可以到數百萬~千萬
+	O(N^1.5) 大概可以到數萬
+	O(N^2) 大概 5000~10000
+	 */
 	return 0;
 }
