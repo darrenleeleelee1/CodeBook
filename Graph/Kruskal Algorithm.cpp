@@ -10,13 +10,7 @@ struct Edge
 int p[maxn];
 vector<Edge> G[maxn];
 int find(int x){
-	int root, trail, lead;
-	for (root = x ; p[root] >= 0; root = p[root]);
-	for (trail = x ; trail != root; trail = lead) {
-        lead = p[trail];
-        p[trail]= root;
- 	}
- 	return root;
+    return p[x] < 0 ? x : (p[x] = find(p[x]));
 }
 bool uni(int x ,int y)
 {
