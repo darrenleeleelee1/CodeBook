@@ -54,9 +54,5 @@
 \contentsline {subsection}{\numberline {9.6}Matrix}{16}%
 \contentsline {subsection}{\numberline {9.7}Lines Intersection}{16}%
 \contentsline {section}{\numberline {10}other}{16}%
-\contentsline {subsection}{\numberline {10.1}BigNum}{16}%
-\contentsline {subsection}{\numberline {10.2}DP + Dijkstra}{19}%
-\contentsline {subsection}{\numberline {10.3}MST + Enumeration}{19}%
-\contentsline {subsection}{\numberline {10.4}Binary Search Example}{19}%
-\contentsline {subsection}{\numberline {10.5}Binary Search Example}{20}%
-\contentsline {subsection}{\numberline {10.6}BFS Number Transform}{20}%
+\contentsline {subsection}{\numberline {10.1}DP + Dijkstra}{16}%
+\contentsline {subsection}{\numberline {10.2}Binary Search Example}{17}%
