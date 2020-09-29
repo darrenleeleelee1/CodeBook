@@ -19,7 +19,7 @@ void uni(int x ,int y)
 {
 	int xRoot = find(x), yRoot = find(y);
 	if(xRoot != yRoot){
-		if(p[xRoot] > p[yRoot]){
+		if(p[xRoot] < p[yRoot]){
 			p[xRoot] += p[yRoot];
 			p[yRoot] = xRoot;
 		}

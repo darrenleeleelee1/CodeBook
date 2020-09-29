@@ -16,7 +16,7 @@ bool uni(int x ,int y)
 {
 	int xRoot = find(x), yRoot = find(y);
 	if(xRoot != yRoot){
-		if(p[xRoot] > p[yRoot]){
+		if(p[xRoot] < p[yRoot]){
 			p[xRoot] += p[yRoot];
 			p[yRoot] = xRoot;
 		}
@@ -59,7 +59,7 @@ void dfs(int pre, int now, int w){
 	}
 	visited.push_back(now);
 	for(auto i : G[now]){
-		if(pre != i.to) dfs(i.from, i.to, i.cost);
+		if(pre != i.to) dfs(now, i.to, i.cost);
 	}
 }
 void findMaxPtah(int sp, int ep){

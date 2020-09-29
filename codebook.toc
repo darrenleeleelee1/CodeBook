@@ -31,7 +31,7 @@
 \contentsline {subsection}{\numberline {7.3}Topology Sort with DFS(check有無環)}{8}%
 \contentsline {section}{\numberline {8}Graph}{8}%
 \contentsline {subsection}{\numberline {8.1}DFS I}{8}%
-\contentsline {subsection}{\numberline {8.2}DFS II}{9}%
+\contentsline {subsection}{\numberline {8.2}DFS II}{8}%
 \contentsline {subsection}{\numberline {8.3}DFS Tree}{9}%
 \contentsline {subsection}{\numberline {8.4}BFS}{9}%
 \contentsline {subsection}{\numberline {8.5}AOE}{9}%
