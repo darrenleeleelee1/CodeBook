@@ -42,17 +42,19 @@
 \contentsline {subsection}{\numberline {8.10}Kruskal}{11}%
 \contentsline {subsection}{\numberline {8.11}Articulation Point}{12}%
 \contentsline {subsection}{\numberline {8.12}Bipartite Matching}{13}%
-\contentsline {subsection}{\numberline {8.13}CLE Directed MST}{13}%
-\contentsline {subsection}{\numberline {8.14}Dinic}{14}%
-\contentsline {subsection}{\numberline {8.15}Convex Hull}{15}%
-\contentsline {section}{\numberline {9}Number}{15}%
-\contentsline {subsection}{\numberline {9.1}Sieve}{15}%
-\contentsline {subsection}{\numberline {9.2}Power}{15}%
-\contentsline {subsection}{\numberline {9.3}Euler}{15}%
-\contentsline {subsection}{\numberline {9.4}Factors}{15}%
+\contentsline {subsection}{\numberline {8.13}Bipartite Checkl}{13}%
+\contentsline {subsection}{\numberline {8.14}CLE Directed MST}{14}%
+\contentsline {subsection}{\numberline {8.15}Dinic}{14}%
+\contentsline {subsection}{\numberline {8.16}MCMF}{15}%
+\contentsline {section}{\numberline {9}Number}{16}%
+\contentsline {subsection}{\numberline {9.1}Sieve}{16}%
+\contentsline {subsection}{\numberline {9.2}Power}{16}%
+\contentsline {subsection}{\numberline {9.3}Euler}{16}%
+\contentsline {subsection}{\numberline {9.4}Factors}{16}%
 \contentsline {subsection}{\numberline {9.5}Extend Euclidean}{16}%
 \contentsline {subsection}{\numberline {9.6}Matrix}{16}%
-\contentsline {subsection}{\numberline {9.7}Lines Intersection}{16}%
-\contentsline {section}{\numberline {10}other}{16}%
-\contentsline {subsection}{\numberline {10.1}DP + Dijkstra}{16}%
-\contentsline {subsection}{\numberline {10.2}Binary Search Example}{17}%
+\contentsline {subsection}{\numberline {9.7}GaussElimination}{17}%
+\contentsline {section}{\numberline {10}Geometry}{17}%
+\contentsline {subsection}{\numberline {10.1}Geometry}{17}%
+\contentsline {subsection}{\numberline {10.2}Lines Intersection}{17}%
+\contentsline {subsection}{\numberline {10.3}Convex Hull}{18}%
