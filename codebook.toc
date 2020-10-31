@@ -2,59 +2,62 @@
 \contentsline {subsection}{\numberline {1.1}Syntax}{1}%
 \contentsline {subsection}{\numberline {1.2}Linux Command}{1}%
 \contentsline {subsection}{\numberline {1.3}Substring}{1}%
-\contentsline {subsection}{\numberline {1.4}BigInteger}{1}%
+\contentsline {subsection}{\numberline {1.4}BigInteger}{2}%
 \contentsline {section}{\numberline {2}Data Structure}{2}%
-\contentsline {subsection}{\numberline {2.1}Disjoint Set}{2}%
-\contentsline {subsection}{\numberline {2.2}Segment Tree}{2}%
-\contentsline {subsection}{\numberline {2.3}Tree Policy}{2}%
-\contentsline {subsection}{\numberline {2.4}KMP}{3}%
-\contentsline {subsection}{\numberline {2.5}LCA}{3}%
-\contentsline {section}{\numberline {3}Divide and Conquer}{3}%
-\contentsline {subsection}{\numberline {3.1}MaximumSubArray}{3}%
+\contentsline {subsection}{\numberline {2.1}Tree}{2}%
+\contentsline {subsection}{\numberline {2.2}Disjoint Set}{2}%
+\contentsline {subsection}{\numberline {2.3}Segment Tree}{2}%
+\contentsline {subsection}{\numberline {2.4}Tree Policy}{3}%
+\contentsline {subsection}{\numberline {2.5}KMP}{3}%
+\contentsline {subsection}{\numberline {2.6}LCA}{3}%
+\contentsline {section}{\numberline {3}Divide and Conquer}{4}%
+\contentsline {subsection}{\numberline {3.1}MaximumSubArray}{4}%
 \contentsline {subsection}{\numberline {3.2}Closet Set Pair}{4}%
 \contentsline {section}{\numberline {4}Dynamic Programming}{4}%
 \contentsline {subsection}{\numberline {4.1}LCS}{4}%
-\contentsline {subsection}{\numberline {4.2}LIS}{4}%
+\contentsline {subsection}{\numberline {4.2}LIS}{5}%
 \contentsline {subsection}{\numberline {4.3}Knapsack}{5}%
 \contentsline {subsection}{\numberline {4.4}ChangeCoin}{5}%
 \contentsline {subsection}{\numberline {4.5}String Edition}{5}%
 \contentsline {subsection}{\numberline {4.6}Chain Matrix Mul}{6}%
 \contentsline {section}{\numberline {5}Search}{6}%
 \contentsline {subsection}{\numberline {5.1}Binary Search}{6}%
-\contentsline {section}{\numberline {6}Sequence}{6}%
-\contentsline {subsection}{\numberline {6.1}RSQ(Prefix Sum)}{6}%
+\contentsline {section}{\numberline {6}Sequence}{7}%
+\contentsline {subsection}{\numberline {6.1}RSQ(Prefix Sum)}{7}%
 \contentsline {subsection}{\numberline {6.2}RSQ(2DPrefix Sum)}{7}%
 \contentsline {subsection}{\numberline {6.3}RSQ(Fenwick Tree)}{7}%
-\contentsline {section}{\numberline {7}Sorting}{7}%
-\contentsline {subsection}{\numberline {7.1}Counting Sort}{7}%
+\contentsline {section}{\numberline {7}Sorting}{8}%
+\contentsline {subsection}{\numberline {7.1}Counting Sort}{8}%
 \contentsline {subsection}{\numberline {7.2}Topology Sort}{8}%
 \contentsline {subsection}{\numberline {7.3}Topology Sort with DFS(check有無環)}{8}%
-\contentsline {section}{\numberline {8}Graph}{8}%
-\contentsline {subsection}{\numberline {8.1}DFS I}{8}%
-\contentsline {subsection}{\numberline {8.2}DFS II}{8}%
+\contentsline {section}{\numberline {8}Graph}{9}%
+\contentsline {subsection}{\numberline {8.1}DFS I}{9}%
+\contentsline {subsection}{\numberline {8.2}DFS II}{9}%
 \contentsline {subsection}{\numberline {8.3}DFS Tree}{9}%
 \contentsline {subsection}{\numberline {8.4}BFS}{9}%
 \contentsline {subsection}{\numberline {8.5}AOE}{9}%
 \contentsline {subsection}{\numberline {8.6}Dijkstra}{10}%
-\contentsline {subsection}{\numberline {8.7}SPFA}{10}%
+\contentsline {subsection}{\numberline {8.7}SPFA}{11}%
 \contentsline {subsection}{\numberline {8.8}BellmanFord}{11}%
 \contentsline {subsection}{\numberline {8.9}FloydWarshall}{11}%
-\contentsline {subsection}{\numberline {8.10}Kruskal}{11}%
+\contentsline {subsection}{\numberline {8.10}Kruskal}{12}%
 \contentsline {subsection}{\numberline {8.11}Articulation Point}{12}%
 \contentsline {subsection}{\numberline {8.12}Bipartite Matching}{13}%
-\contentsline {subsection}{\numberline {8.13}Bipartite Checkl}{13}%
+\contentsline {subsection}{\numberline {8.13}Bipartite Checkl}{14}%
 \contentsline {subsection}{\numberline {8.14}CLE Directed MST}{14}%
-\contentsline {subsection}{\numberline {8.15}Dinic}{14}%
+\contentsline {subsection}{\numberline {8.15}Dinic}{15}%
 \contentsline {subsection}{\numberline {8.16}MCMF}{15}%
 \contentsline {section}{\numberline {9}Number}{16}%
 \contentsline {subsection}{\numberline {9.1}Sieve}{16}%
 \contentsline {subsection}{\numberline {9.2}Power}{16}%
 \contentsline {subsection}{\numberline {9.3}Euler}{16}%
-\contentsline {subsection}{\numberline {9.4}Factors}{16}%
-\contentsline {subsection}{\numberline {9.5}Extend Euclidean}{16}%
-\contentsline {subsection}{\numberline {9.6}Matrix}{16}%
+\contentsline {subsection}{\numberline {9.4}Factors}{17}%
+\contentsline {subsection}{\numberline {9.5}Extend Euclidean}{17}%
+\contentsline {subsection}{\numberline {9.6}Matrix}{17}%
 \contentsline {subsection}{\numberline {9.7}GaussElimination}{17}%
 \contentsline {section}{\numberline {10}Geometry}{17}%
 \contentsline {subsection}{\numberline {10.1}Geometry}{17}%
-\contentsline {subsection}{\numberline {10.2}Lines Intersection}{17}%
-\contentsline {subsection}{\numberline {10.3}Convex Hull}{18}%
+\contentsline {subsection}{\numberline {10.2}Lines Intersection1}{18}%
+\contentsline {subsection}{\numberline {10.3}Lines Intersection2}{18}%
+\contentsline {subsection}{\numberline {10.4}Polygon Inside Or Outside}{19}%
+\contentsline {subsection}{\numberline {10.5}Convex Hull}{19}%
