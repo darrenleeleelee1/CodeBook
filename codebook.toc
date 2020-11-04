@@ -42,22 +42,23 @@
 \contentsline {subsection}{\numberline {8.9}FloydWarshall}{11}%
 \contentsline {subsection}{\numberline {8.10}Kruskal}{12}%
 \contentsline {subsection}{\numberline {8.11}Articulation Point}{12}%
-\contentsline {subsection}{\numberline {8.12}Bipartite Matching}{13}%
-\contentsline {subsection}{\numberline {8.13}Bipartite Checkl}{14}%
-\contentsline {subsection}{\numberline {8.14}CLE Directed MST}{14}%
-\contentsline {subsection}{\numberline {8.15}Dinic}{15}%
-\contentsline {subsection}{\numberline {8.16}MCMF}{15}%
-\contentsline {section}{\numberline {9}Number}{16}%
-\contentsline {subsection}{\numberline {9.1}Sieve}{16}%
-\contentsline {subsection}{\numberline {9.2}Power}{16}%
-\contentsline {subsection}{\numberline {9.3}Euler}{16}%
+\contentsline {subsection}{\numberline {8.12}KM}{13}%
+\contentsline {subsection}{\numberline {8.13}Bipartite Matching}{14}%
+\contentsline {subsection}{\numberline {8.14}Bipartite Checkl}{14}%
+\contentsline {subsection}{\numberline {8.15}CLE Directed MST}{15}%
+\contentsline {subsection}{\numberline {8.16}Dinic}{15}%
+\contentsline {subsection}{\numberline {8.17}MCMF}{16}%
+\contentsline {section}{\numberline {9}Number}{17}%
+\contentsline {subsection}{\numberline {9.1}Sieve}{17}%
+\contentsline {subsection}{\numberline {9.2}Power}{17}%
+\contentsline {subsection}{\numberline {9.3}Euler}{17}%
 \contentsline {subsection}{\numberline {9.4}Factors}{17}%
 \contentsline {subsection}{\numberline {9.5}Extend Euclidean}{17}%
 \contentsline {subsection}{\numberline {9.6}Matrix}{17}%
-\contentsline {subsection}{\numberline {9.7}GaussElimination}{17}%
-\contentsline {section}{\numberline {10}Geometry}{17}%
-\contentsline {subsection}{\numberline {10.1}Geometry}{17}%
+\contentsline {subsection}{\numberline {9.7}GaussElimination}{18}%
+\contentsline {section}{\numberline {10}Geometry}{18}%
+\contentsline {subsection}{\numberline {10.1}Geometry}{18}%
 \contentsline {subsection}{\numberline {10.2}Lines Intersection1}{18}%
-\contentsline {subsection}{\numberline {10.3}Lines Intersection2}{18}%
+\contentsline {subsection}{\numberline {10.3}Lines Intersection2}{19}%
 \contentsline {subsection}{\numberline {10.4}Polygon Inside Or Outside}{19}%
-\contentsline {subsection}{\numberline {10.5}Convex Hull}{19}%
+\contentsline {subsection}{\numberline {10.5}Convex Hull}{20}%

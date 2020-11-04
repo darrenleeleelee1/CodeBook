@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 2.9.7400 64-bit) (preloaded format=xelatex 2020.5.17)  31 OCT 2020 22:09
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 2.9.7400 64-bit) (preloaded format=xelatex 2020.5.17)  3 NOV 2020 00:28
 entering extended mode
 **./codebook.tex
 (codebook.tex
@@ -637,32 +637,30 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [12])
-("Graph/Bipartite Matching.cpp"
+(Graph/KM_template.cpp
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [13])
-(Graph/Bipartite.cpp) (Graph/CLE.cpp [14]) (Graph/Dinic.cpp) (Graph/MCMF.cpp
-[15]
+("Graph/Bipartite Matching.cpp") (Graph/Bipartite.cpp [14]) (Graph/CLE.cpp)
+(Graph/Dinic.cpp [15]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 )
-(Number/Sieve.cpp) (Number/Power.cpp) (Number/Euler.cpp) (Number/Factors.cpp
-[16]) (Number/ExtendEuclidean.cpp) (Number/Matrix.cpp)
-(Number/GaussElimination.cpp) (Geometry/GeometryBasic.cpp [17])
-(Geometry/LinesIntersection.cpp) (Geometry/geo_lineIntersection.cpp [18])
-(Geometry/geo_polygonInsideOrOutside.cpp) ("Geometry/Convex Hull.cpp" [19]))
-[20
-
-] (codebook.aux)
+(Graph/MCMF.cpp [16]) (Number/Sieve.cpp) (Number/Power.cpp) (Number/Euler.cpp)
+(Number/Factors.cpp) (Number/ExtendEuclidean.cpp) (Number/Matrix.cpp [17])
+(Number/GaussElimination.cpp) (Geometry/GeometryBasic.cpp)
+(Geometry/LinesIntersection.cpp [18]) (Geometry/geo_lineIntersection.cpp)
+(Geometry/geo_polygonInsideOrOutside.cpp [19]) ("Geometry/Convex Hull.cpp"))
+[20] (codebook.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 10046 strings out of 414218
- 214133 string characters out of 2898077
+ 10058 strings out of 414218
+ 214281 string characters out of 2898077
  1210298 words of memory out of 3000000
- 27272 multiletter control sequences out of 15000+200000
+ 27281 multiletter control sequences out of 15000+200000
  533901 words of font info for 64 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
  44i,12n,70p,256b,1627s stack positions out of 5000i,500n,10000p,200000b,50000s

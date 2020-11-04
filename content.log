@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 2.9.7400 64-bit) (preloaded format=xelatex 2020.5.17)  31 OCT 2020 22:08
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 2.9.7400 64-bit) (preloaded format=xelatex 2020.5.17)  3 NOV 2020 00:26
 entering extended mode
 **./content.tex
 (content.tex
@@ -2213,6 +2213,64 @@ Overfull \hbox (20.0pt too wide) in paragraph at lines 124--126
 
 ! Undefined control sequence.
 l.127 \subsection
+                 {KM}
+? 
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.127 \subsection{K
+                   M}
+? 
+Missing character: There is no K in font nullfont!
+Missing character: There is no M in font nullfont!
+! Undefined control sequence.
+l.128 \lstinputlisting
+                      {Graph/KM_template.cpp}
+? 
+Missing character: There is no G in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no K in font nullfont!
+Missing character: There is no M in font nullfont!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.128 \lstinputlisting{Graph/KM_
+                                template.cpp}
+? 
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 128.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 128.
+! Extra }, or forgotten $.
+l.128 \lstinputlisting{Graph/KM_template.cpp}
+                                             
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.129 
+      
+? 
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 127--129
+[]
+ []
+
+
+Overfull \hbox (55.89018pt too wide) in paragraph at lines 127--129
+[]\OML/cmm/m/it/10 emplate:cpp$ 
+ []
+
+! Undefined control sequence.
+l.130 \subsection
                  {Bipartite Matching}
 ? 
 
@@ -2222,7 +2280,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.127 \subsection{B
+l.130 \subsection{B
                    ipartite Matching}
 ? 
 Missing character: There is no B in font nullfont!
@@ -2243,7 +2301,7 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no g in font nullfont!
 ! Undefined control sequence.
-l.128 \lstinputlisting
+l.131 \lstinputlisting
                       {Graph/Bipartite Matching.cpp}
 ? 
 Missing character: There is no G in font nullfont!
@@ -2274,12 +2332,12 @@ Missing character: There is no c in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no p in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 127--129
+Overfull \hbox (20.0pt too wide) in paragraph at lines 130--132
 []
  []
 
 ! Undefined control sequence.
-l.130 \subsection
+l.133 \subsection
                  {Bipartite Checkl}
 ? 
 
@@ -2289,7 +2347,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.130 \subsection{B
+l.133 \subsection{B
                    ipartite Checkl}
 ? 
 Missing character: There is no B in font nullfont!
@@ -2308,7 +2366,7 @@ Missing character: There is no c in font nullfont!
 Missing character: There is no k in font nullfont!
 Missing character: There is no l in font nullfont!
 ! Undefined control sequence.
-l.131 \lstinputlisting
+l.134 \lstinputlisting
                       {Graph/Bipartite.cpp}
 ? 
 Missing character: There is no G in font nullfont!
@@ -2331,12 +2389,12 @@ Missing character: There is no c in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no p in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 130--132
+Overfull \hbox (20.0pt too wide) in paragraph at lines 133--135
 []
  []
 
 ! Undefined control sequence.
-l.133 \subsection
+l.136 \subsection
                  {CLE Directed MST}
 ? 
 
@@ -2346,7 +2404,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.133 \subsection{C
+l.136 \subsection{C
                    LE Directed MST}
 ? 
 Missing character: There is no C in font nullfont!
@@ -2364,7 +2422,7 @@ Missing character: There is no M in font nullfont!
 Missing character: There is no S in font nullfont!
 Missing character: There is no T in font nullfont!
 ! Undefined control sequence.
-l.134 \lstinputlisting
+l.137 \lstinputlisting
                       {Graph/CLE.cpp}
 ? 
 Missing character: There is no G in font nullfont!
@@ -2381,12 +2439,12 @@ Missing character: There is no c in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no p in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 133--135
+Overfull \hbox (20.0pt too wide) in paragraph at lines 136--138
 []
  []
 
 ! Undefined control sequence.
-l.136 \subsection
+l.139 \subsection
                  {Dinic}
 ? 
 
@@ -2396,7 +2454,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.136 \subsection{D
+l.139 \subsection{D
                    inic}
 ? 
 Missing character: There is no D in font nullfont!
@@ -2405,7 +2463,7 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no c in font nullfont!
 ! Undefined control sequence.
-l.137 \lstinputlisting
+l.140 \lstinputlisting
                       {Graph/Dinic.cpp}
 ? 
 Missing character: There is no G in font nullfont!
@@ -2424,12 +2482,12 @@ Missing character: There is no c in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no p in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 136--138
+Overfull \hbox (20.0pt too wide) in paragraph at lines 139--141
 []
  []
 
 ! Undefined control sequence.
-l.139 \subsection
+l.142 \subsection
                  {MCMF}
 ? 
 
@@ -2439,7 +2497,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.139 \subsection{M
+l.142 \subsection{M
                    CMF}
 ? 
 Missing character: There is no M in font nullfont!
@@ -2447,7 +2505,7 @@ Missing character: There is no C in font nullfont!
 Missing character: There is no M in font nullfont!
 Missing character: There is no F in font nullfont!
 ! Undefined control sequence.
-l.140 \lstinputlisting
+l.143 \lstinputlisting
                       {Graph/MCMF.cpp}
 ? 
 Missing character: There is no G in font nullfont!
@@ -2465,7 +2523,7 @@ Missing character: There is no c in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no p in font nullfont!
 ! Undefined control sequence.
-l.142 \section
+l.145 \section
               {Number}
 ? 
 Missing character: There is no N in font nullfont!
@@ -2475,12 +2533,12 @@ Missing character: There is no b in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no r in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 139--143
+Overfull \hbox (20.0pt too wide) in paragraph at lines 142--146
 []
  []
 
 ! Undefined control sequence.
-l.144 \subsection
+l.147 \subsection
                  {Sieve}
 ? 
 
@@ -2490,7 +2548,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.144 \subsection{S
+l.147 \subsection{S
                    ieve}
 ? 
 Missing character: There is no S in font nullfont!
@@ -2499,7 +2557,7 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no v in font nullfont!
 Missing character: There is no e in font nullfont!
 ! Undefined control sequence.
-l.145 \lstinputlisting
+l.148 \lstinputlisting
                       {Number/Sieve.cpp}
 ? 
 Missing character: There is no N in font nullfont!
@@ -2519,12 +2577,12 @@ Missing character: There is no c in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no p in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 144--146
+Overfull \hbox (20.0pt too wide) in paragraph at lines 147--149
 []
  []
 
 ! Undefined control sequence.
-l.147 \subsection
+l.150 \subsection
                  {Power}
 ? 
 
@@ -2534,7 +2592,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.147 \subsection{P
+l.150 \subsection{P
                    ower}
 ? 
 Missing character: There is no P in font nullfont!
@@ -2543,7 +2601,7 @@ Missing character: There is no w in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no r in font nullfont!
 ! Undefined control sequence.
-l.148 \lstinputlisting
+l.151 \lstinputlisting
                       {Number/Power.cpp}
 ? 
 Missing character: There is no N in font nullfont!
@@ -2563,12 +2621,12 @@ Missing character: There is no c in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no p in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 147--149
+Overfull \hbox (20.0pt too wide) in paragraph at lines 150--152
 []
  []
 
 ! Undefined control sequence.
-l.150 \subsection
+l.153 \subsection
                  {Euler}
 ? 
 
@@ -2578,7 +2636,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.150 \subsection{E
+l.153 \subsection{E
                    uler}
 ? 
 Missing character: There is no E in font nullfont!
@@ -2587,7 +2645,7 @@ Missing character: There is no l in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no r in font nullfont!
 ! Undefined control sequence.
-l.151 \lstinputlisting
+l.154 \lstinputlisting
                       {Number/Euler.cpp}
 ? 
 Missing character: There is no N in font nullfont!
@@ -2607,12 +2665,12 @@ Missing character: There is no c in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no p in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 150--152
+Overfull \hbox (20.0pt too wide) in paragraph at lines 153--155
 []
  []
 
 ! Undefined control sequence.
-l.153 \subsection
+l.156 \subsection
                  {Factors}
 ? 
 
@@ -2622,7 +2680,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.153 \subsection{F
+l.156 \subsection{F
                    actors}
 ? 
 Missing character: There is no F in font nullfont!
@@ -2633,7 +2691,7 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no s in font nullfont!
 ! Undefined control sequence.
-l.154 \lstinputlisting
+l.157 \lstinputlisting
                       {Number/Factors.cpp}
 ? 
 Missing character: There is no N in font nullfont!
@@ -2655,12 +2713,12 @@ Missing character: There is no c in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no p in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 153--155
+Overfull \hbox (20.0pt too wide) in paragraph at lines 156--158
 []
  []
 
 ! Undefined control sequence.
-l.156 \subsection
+l.159 \subsection
                  {Extend Euclidean}
 ? 
 
@@ -2670,7 +2728,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.156 \subsection{E
+l.159 \subsection{E
                    xtend Euclidean}
 ? 
 Missing character: There is no E in font nullfont!
@@ -2689,7 +2747,7 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no n in font nullfont!
 ! Undefined control sequence.
-l.157 \lstinputlisting
+l.160 \lstinputlisting
                       {Number/ExtendEuclidean.cpp}
 ? 
 Missing character: There is no N in font nullfont!
@@ -2719,12 +2777,12 @@ Missing character: There is no c in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no p in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 156--158
+Overfull \hbox (20.0pt too wide) in paragraph at lines 159--161
 []
  []
 
 ! Undefined control sequence.
-l.159 \subsection
+l.162 \subsection
                  {Matrix}
 ? 
 
@@ -2734,7 +2792,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.159 \subsection{M
+l.162 \subsection{M
                    atrix}
 ? 
 Missing character: There is no M in font nullfont!
@@ -2744,7 +2802,7 @@ Missing character: There is no r in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no x in font nullfont!
 ! Undefined control sequence.
-l.160 \lstinputlisting
+l.163 \lstinputlisting
                       {Number/Matrix.cpp}
 ? 
 Missing character: There is no N in font nullfont!
@@ -2765,12 +2823,12 @@ Missing character: There is no c in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no p in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 159--161
+Overfull \hbox (20.0pt too wide) in paragraph at lines 162--164
 []
  []
 
 ! Undefined control sequence.
-l.163 \subsection
+l.166 \subsection
                  {GaussElimination}
 ? 
 
@@ -2780,7 +2838,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.163 \subsection{G
+l.166 \subsection{G
                    aussElimination}
 ? 
 Missing character: There is no G in font nullfont!
@@ -2800,7 +2858,7 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no n in font nullfont!
 ! Undefined control sequence.
-l.164 \lstinputlisting
+l.167 \lstinputlisting
                       {Number/GaussElimination.cpp}
 ? 
 Missing character: There is no N in font nullfont!
@@ -2831,7 +2889,7 @@ Missing character: There is no c in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no p in font nullfont!
 ! Undefined control sequence.
-l.166 \section
+l.169 \section
               {Geometry}
 ? 
 Missing character: There is no G in font nullfont!
@@ -2843,12 +2901,12 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no y in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 163--167
+Overfull \hbox (20.0pt too wide) in paragraph at lines 166--170
 []
  []
 
 ! Undefined control sequence.
-l.168 \subsection
+l.171 \subsection
                  {Geometry}
 ? 
 
@@ -2858,7 +2916,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.168 \subsection{G
+l.171 \subsection{G
                    eometry}
 ? 
 Missing character: There is no G in font nullfont!
@@ -2870,7 +2928,7 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no y in font nullfont!
 ! Undefined control sequence.
-l.169 \lstinputlisting
+l.172 \lstinputlisting
                       {Geometry/GeometryBasic.cpp}
 ? 
 Missing character: There is no G in font nullfont!
@@ -2900,12 +2958,12 @@ Missing character: There is no c in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no p in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 168--170
+Overfull \hbox (20.0pt too wide) in paragraph at lines 171--173
 []
  []
 
 ! Undefined control sequence.
-l.171 \subsection
+l.174 \subsection
                  {Lines Intersection1}
 ? 
 
@@ -2915,7 +2973,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.171 \subsection{L
+l.174 \subsection{L
                    ines Intersection1}
 ? 
 Missing character: There is no L in font nullfont!
@@ -2937,7 +2995,7 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no 1 in font nullfont!
 ! Undefined control sequence.
-l.172 \lstinputlisting
+l.175 \lstinputlisting
                       {Geometry/LinesIntersection.cpp}
 ? 
 Missing character: There is no G in font nullfont!
@@ -2971,12 +3029,12 @@ Missing character: There is no c in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no p in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 171--173
+Overfull \hbox (20.0pt too wide) in paragraph at lines 174--176
 []
  []
 
 ! Undefined control sequence.
-l.174 \subsection
+l.177 \subsection
                  {Lines Intersection2}
 ? 
 
@@ -2986,7 +3044,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.174 \subsection{L
+l.177 \subsection{L
                    ines Intersection2}
 ? 
 Missing character: There is no L in font nullfont!
@@ -3008,7 +3066,7 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no 2 in font nullfont!
 ! Undefined control sequence.
-l.175 \lstinputlisting
+l.178 \lstinputlisting
                       {Geometry/geo_lineIntersection.cpp}
 ? 
 Missing character: There is no G in font nullfont!
@@ -3026,35 +3084,31 @@ Missing character: There is no o in font nullfont!
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.175 \lstinputlisting{Geometry/geo_
+l.178 \lstinputlisting{Geometry/geo_
                                     lineIntersection.cpp}
 ? 
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 175.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 175.
 ! Extra }, or forgotten $.
-l.175 ...isting{Geometry/geo_lineIntersection.cpp}
+l.178 ...isting{Geometry/geo_lineIntersection.cpp}
                                                   
 ? 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.176 
+l.179 
       
 ? 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 174--176
+Overfull \hbox (20.0pt too wide) in paragraph at lines 177--179
 []
  []
 
 
-Overfull \hbox (90.15784pt too wide) in paragraph at lines 174--176
+Overfull \hbox (90.15784pt too wide) in paragraph at lines 177--179
 []\OML/cmm/m/it/10 ineIntersection:cpp$ 
  []
 
 ! Undefined control sequence.
-l.177 \subsection
+l.180 \subsection
                  {Polygon Inside Or Outside}
 ? 
 
@@ -3064,7 +3118,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.177 \subsection{P
+l.180 \subsection{P
                    olygon Inside Or Outside}
 ? 
 Missing character: There is no P in font nullfont!
@@ -3090,7 +3144,7 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no e in font nullfont!
 ! Undefined control sequence.
-l.178 \lstinputlisting
+l.181 \lstinputlisting
                       {Geometry/geo_polygonInsideOrOutside.cpp}
 ? 
 Missing character: There is no G in font nullfont!
@@ -3108,31 +3162,31 @@ Missing character: There is no o in font nullfont!
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.178 \lstinputlisting{Geometry/geo_
+l.181 \lstinputlisting{Geometry/geo_
                                     polygonInsideOrOutside.cpp}
 ? 
 ! Extra }, or forgotten $.
-l.178 ...{Geometry/geo_polygonInsideOrOutside.cpp}
+l.181 ...{Geometry/geo_polygonInsideOrOutside.cpp}
                                                   
 ? 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.179 
+l.182 
       
 ? 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 177--179
+Overfull \hbox (20.0pt too wide) in paragraph at lines 180--182
 []
  []
 
 
-Overfull \hbox (128.1642pt too wide) in paragraph at lines 177--179
+Overfull \hbox (128.1642pt too wide) in paragraph at lines 180--182
 []\OML/cmm/m/it/10 olygonInsideOrOutside:cpp$ 
  []
 
 ! Undefined control sequence.
-l.180 \subsection
+l.183 \subsection
                  {Convex Hull}
 ? 
 
@@ -3142,7 +3196,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.180 \subsection{C
+l.183 \subsection{C
                    onvex Hull}
 ? 
 Missing character: There is no C in font nullfont!
@@ -3156,7 +3210,7 @@ Missing character: There is no u in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no l in font nullfont!
 ! Undefined control sequence.
-l.181 \lstinputlisting
+l.184 \lstinputlisting
                       {Geometry/Convex Hull.cpp}
 ? 
 Missing character: There is no G in font nullfont!
@@ -3185,7 +3239,7 @@ Missing character: There is no p in font nullfont!
 )
 *
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 180--0
+Overfull \hbox (20.0pt too wide) in paragraph at lines 183--0
 []
  []
 
@@ -3212,34 +3266,6 @@ Overfull \hbox (20.0pt too wide) in paragraph at lines 180--0
 (Please type a command or say `\end')
 *
 (Please type a command or say `\end')
-*
-(Please type a command or say `\end')
-*
-(Please type a command or say `\end')
-*
-(Please type a command or say `\end')
-*
-(Please type a command or say `\end')
-*
-(Please type a command or say `\end')
-*
-(Please type a command or say `\end')
-*
-(Please type a command or say `\end')
-*
-(Please type a command or say `\end')
-*\ned
-! Undefined control sequence.
-<*> \ned
-        
-? \end
-Type <return> to proceed, S to scroll future error messages,
-R to run without stopping, Q to run quietly,
-I to insert something, 
-1 or ... or 9 to ignore the next 1 to 9 tokens of input,
-H for help, X to quit.
-? 
-
 *\end
 
 *\end
@@ -3259,5 +3285,5 @@ Here is how much of TeX's memory you used:
  17618 multiletter control sequences out of 15000+200000
  532338 words of font info for 24 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
- 5000i,1n,4996p,83b,58s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 5000i,1n,4996p,78b,58s stack positions out of 5000i,500n,10000p,200000b,50000s
 No pages of output.
