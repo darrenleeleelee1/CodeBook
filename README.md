@@ -1,4 +1,3 @@
 # CodeBook
-Codebook for ICPC Competition
-
+•	Algorithm used in Competitive Programming
 [codebook.pdf](codebook.pdf)
