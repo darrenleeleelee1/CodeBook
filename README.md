@@ -1,5 +1,5 @@
 # CodeBook
-Algorithm practice for Competitive Programming
+Algorithm practice record.
 
 
 ## Outline
