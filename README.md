@@ -1,5 +1,6 @@
 # CodeBook
-Algorithm used in Competitive Programming
+Algorithm practice for Competitive Programming
+
 
 ## Outline
 1. Basic
