@@ -1,5 +1,5 @@
 # CodeBook
-Competitive Programming algorithm practice.
+Competitive Programming Algorithm Notes.
 
 ## Outline
 1. Basic
