@@ -1,6 +1,5 @@
 # CodeBook
-Algorithm practice record.
-
+Competitive Programming algorithm practice.
 
 ## Outline
 1. Basic
