@@ -120,6 +120,7 @@ Competitive Programming Algorithm Notes.
 
     9.7 [GaussElimination](./Number/GaussElimination.cpp)
 10. Geometry
+
     10.1 [Geometry](./Geometry/GeometryBasic.cpp)
 
     10.2 [Lines Intersection1](./Geometry/LinesIntersection.cpp)
